@@ -1,33 +1,40 @@
-# Mood_Based_Music_Recommendation_System
-A web-based application that detects a user’s mood from text input using NLP and recommends suitable music accordingly.
-A Flask-based web application that detects a user’s mood from text input using Natural Language Processing (NLP) and recommends songs that match the detected mood.
-This project demonstrates the practical use of AI, NLP, and web development in a real-world recommendation system.
+![image](https://github.com/user-attachments/assets/5504ad73-3ae7-4563-acf2-149c3baf4702)
+![image](https://github.com/user-attachments/assets/1130bcc7-f278-4b59-9bcd-608fea98d863)
 
+# Mood-Based Music Recommender
 
-Project Objectives
-1. Detect user mood using sentiment analysis
-2. Recommend songs based on detected mood
-3. Provide a simple and user-friendly web interface
-4. Demonstrate real-world application of NLP
+This project is a web application designed to recommend music based on the user's current mood. Users input their mood, and the app provides a playlist that matches their emotional state. The application integrates animated UI elements to enhance user experience and is built using modern web technologies. It utilizes the Google Cloud API for mood analysis and the Spotify API to fetch and play music.
 
+## Features
 
-Features
-1. Text-based mood detection
-2. Automatic music recommendations
-3. Lightweight and fast Flask backend
-4. Clean and simple UI
-5. Easy to extend with face or voice emotion detection
+- **Mood-based music recommendations**: Input your mood, and get a matching playlist.
+- **Spotify integration**: Fetches and plays music directly from Spotify.
+- **Google Cloud API**: Analyzes the mood input to generate appropriate music recommendations.
+- **Instant music playback**: Music starts playing immediately in the background.
+- **Animated UI**: Smooth animations for a modern, interactive feel.
+- **Language selection**: Choose your preferred language for recommendations.
 
+## Technology Stack
 
-🛠️ Tech Stack
-Frontend
-HTML
-CSS
+- **HTML/CSS/JavaScript** - Front-end for user interface and interactions.
+- **Google Cloud API** - Processes the mood input to generate music recommendations.
+- **Spotify API** - Fetches and plays recommended music based on the mood.
+- **Vercel** - Platform for hosting and deploying serverless functions.
+  
+## Getting Started
 
-Backend
-Python
-Flask
-NLP / Machine Learning
-TextBlob (Sentiment Analysis)
-Database
-CSV file (songs.csv)
+### Prerequisites
+
+To run this project locally, you need to have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [Vercel CLI](https://vercel.com/download)
+- [Google Cloud API key](https://cloud.google.com/docs/authentication/getting-started)
+- [Spotify Developer Account](https://developer.spotify.com/)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Faruk-Tutkus/Mood-Based-Music-Recommender.git
+   cd Mood-Based-Music-Recommender
